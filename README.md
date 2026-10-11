@@ -20,13 +20,9 @@ python -m pytest -v
 
 ## Avance del proyecto
 - [x] Hito 1 — Repositorio, código base y pruebas locales
-- [ ] Hito 2 — GitHub Flow, CI/CD y GitHub Pages
+- [X] Hito 2 — GitHub Flow, CI/CD y GitHub Pages
 - [ ] Hito 3 — Jira, sprint e integración con GitHub
 
 ## Evidencias
-<<<<<<< Updated upstream
-(Se completa en cada hito: enlaces a PRs, workflows, sitio publicado y Jira.)
-=======
-(Se completa en cada hito: enlaces a PRs, workflows, sitio publicado y Jira.)
->>>>>>> Stashed changes
 [![CI](https://github.com/irvingurbano-sys/taskflow/actions/workflows/ci.yml/badge.svg)](https://github.com/irvingurbano-sys/taskflow/actions/workflows/ci.yml)
+[Sitio web publicado](https://Margaret-vp.github.io/taskflow/)
