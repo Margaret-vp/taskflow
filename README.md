@@ -29,3 +29,4 @@ python -m pytest -v
 =======
 (Se completa en cada hito: enlaces a PRs, workflows, sitio publicado y Jira.)
 >>>>>>> Stashed changes
+[![CI](https://github.com/irvingurbano-sys/taskflow/actions/workflows/ci.yml/badge.svg)](https://github.com/irvingurbano-sys/taskflow/actions/workflows/ci.yml)
