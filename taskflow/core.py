@@ -39,6 +39,11 @@ class GestorTareas:
         if solo_pendientes:
             return [t for t in self._tareas if not t.completada]
         return list(self._tareas)
+    
+    def eliminar(self, tarea_id):
+        tarea = self.buscar(tarea_id)   # lanza KeyError si no existe
+        self._tareas.remove(tarea)
+        return tarea
 
     def buscar(self, tarea_id):
         for tarea in self._tareas:
