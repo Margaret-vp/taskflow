@@ -24,4 +24,8 @@ python -m pytest -v
 - [ ] Hito 3 — Jira, sprint e integración con GitHub
 
 ## Evidencias
+<<<<<<< Updated upstream
 (Se completa en cada hito: enlaces a PRs, workflows, sitio publicado y Jira.)
+=======
+(Se completa en cada hito: enlaces a PRs, workflows, sitio publicado y Jira.)
+>>>>>>> Stashed changes
