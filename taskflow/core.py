@@ -14,6 +14,10 @@ class Tarea:
 
 class GestorTareas:
     """Guarda las tareas en memoria y aplica las reglas del negocio."""
+    def filtrar_por_prioridad(self, prioridad):
+        if prioridad not in ["alta", "media", "baja"]:
+            raise ValueError("Prioridad inválida")
+        return [t for t in self.listar() if t.prioridad == prioridad]
 
     def __init__(self):
         self._tareas = []
