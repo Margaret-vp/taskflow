@@ -2,7 +2,6 @@ import pytest
 
 from taskflow import GestorTareas
 
-
 def test_agregar_asigna_ids_consecutivos():
     gestor = GestorTareas()
     primera = gestor.agregar("A")
