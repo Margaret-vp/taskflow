@@ -1,15 +1,28 @@
 # TaskFlow
 
-Gestor de tareas en Python · Proyecto integrador del curso **DevOps & Project Management**.
+
+Gestor de tareas en Python · Proyecto integrador DevOps & Project Management.
+Sitio: https://USUARIO.github.io/taskflow/ · Jira: https://SITIO.atlassian.net (proyecto TF)
 
 ## Equipo
-- Nombre Apellido — @usuario-github
-- Pareja de revisión: @usuario-pareja
+## Funcionalidades (con la clave de Jira de cada una)
+## Cómo ejecutarlo y probarlo
+## Flujo de trabajo
+- Estrategia: GitHub Flow · merge: squash · main protegida (ruleset)
+- Convenciones: ramas `tipo/TF-n-descripcion`, Conventional Commits, PRs con plantilla
+## CI/CD
+- ci.yml: pruebas en Python 3.11–3.13 en cada PR
+- deploy.yml: pruebas + publicación en Pages en cada merge a main
+## Gestión ágil
+- Épicas, Sprint Goal, velocity (Sprint 0 y Sprint 1), enlace al burndown
+## Evidencias
+- Lista de PRs (enlaces) · capturas en docs/evidencias/
+## Retrospectiva del Sprint 1
+| Mantener | Mejorar | Acción (clave Jira) |
+|----------|---------|---------------------|
+|          |         |                     |
+## Lecciones aprendidas
 
-## ¿Qué hace?
-TaskFlow permite agregar tareas con prioridad (baja, media, alta), completarlas y listar las pendientes.
-
-## Cómo ejecutarlo
 ```bash
 python -m venv .venv
 source .venv/bin/activate        # Windows (Git Bash): source .venv/Scripts/activate
@@ -30,3 +43,4 @@ python -m pytest -v
 (Se completa en cada hito: enlaces a PRs, workflows, sitio publicado y Jira.)
 >>>>>>> Stashed changes
 [![CI](https://github.com/irvingurbano-sys/taskflow/actions/workflows/ci.yml/badge.svg)](https://github.com/irvingurbano-sys/taskflow/actions/workflows/ci.yml)
+
